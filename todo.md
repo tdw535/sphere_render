@@ -1,1 +1,2 @@
 - [ ] Get Cmake working
+- - [ ] Go through cmake tutorial 
