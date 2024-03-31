@@ -1,9 +1,9 @@
-#include "utils/include/util1.h"
+#include "util.h"
 #include <iostream>
 
 int main()
 {
-    auto helper = Helper::Helper();
-    auto val = helper::helper1();
+    auto val = helper1();
     std::cout << "Hello world" << std::endl;
+    std::cout << "val " << val << std::endl;
 }
