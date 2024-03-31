@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+find_package(Eigen3 3.3 REQUIRED NO_MODULE)
 
 project(SphereRenderer VERSION 0.1)
 
@@ -19,8 +20,7 @@ add_executable(
   SphereRender/main.cpp
   )
 
-
-target_link_libraries(SphereRenderer PUBLIC Utils)
+target_link_libraries(SphereRenderer PUBLIC Utils Eigen3::Eigen)
 
 
 target_include_directories(SphereRenderer PUBLIC

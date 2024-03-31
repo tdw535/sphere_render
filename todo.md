@@ -1,2 +1,3 @@
-- [ ] Get Cmake working
-- - [ ] Go through cmake tutorial 
+- [x] Get Cmake working
+- [x] Get Eigen working
+- [ ] Pass data to webbrowser w/o memory leak
